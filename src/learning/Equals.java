@@ -1,6 +1,6 @@
 package learning;
 
-public class equals {
+public class Equals {
     public static void main(String[] args) {
         /*
         ==：比较两个对象的地址是否相同

@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.util.Scanner;
 
-public class file {
+public class File {
     public static void main(String[] args) throws IOException {
         //读
         Scanner in = new Scanner(Path.of("D:\\code\\HelloWorld.txt"), StandardCharsets.UTF_8);

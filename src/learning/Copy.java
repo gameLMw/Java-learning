@@ -2,7 +2,7 @@ package learning;
 
 import java.util.Arrays;
 
-public class copy {
+public class Copy {
     public static void main(String[] args) {
         /*
         两者区别：

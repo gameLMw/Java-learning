@@ -1,6 +1,6 @@
 package learning;
 
-public class method {
+public class Method {
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }

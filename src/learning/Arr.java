@@ -2,7 +2,7 @@ package learning;
 
 import java.util.Arrays;
 
-public class arr {
+public class Arr {
     public static void main(String[] args) {
         int[] a = new int[]{1, 2, 3, 4, 5};
         for (int i = 0; i < 5; i++) {
@@ -26,5 +26,14 @@ public class arr {
         System.out.println("------------------");
         for (int i : b)
             System.out.println(i);
+        System.out.println("------------------");
+        int[][] c = new int[][]{{1, 2, 3},
+                {4, 5,6,},
+                {7, 8, 9}};
+        for (int i = 0; i < 3; i++){
+            for (int j = 0; j < 3; j++){
+                System.out.println(c[i][j]);
+            }
+        }
     }
 }
